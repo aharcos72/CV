@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+.text-justify{text-align: justify;}
+.text-center{text-align: center;}
+
+#wrapper{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#content{
+    position: absolute;
+    margin: auto;
+    width: 97%;
+    padding: 5px;
+}
+
+a,
+a:link,
+a:visited
+a:hover,
+a:active{
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    margin-top: 1vh;
+}
+
+#myself, #experience, #certificate, #footer{
+    max-width: 600px;
+    background-color: beige;
+    opacity: 0.98;
+    margin: 2vh auto 0 auto;
+    border-radius: 10px;
+    padding: 1vh;
+    text-align: center;
+}
+#myself img{
+    height: 180px;
+    border-radius: 200px;
+    margin: 2vh auto;
+    border: 2px solid black;
+    text-align: center;
+}
+#myself p, #experience p, #certificate p, #footer p{
+    text-align: justify;
+    margin: 2vh 15px;
+}
+#myself ul{
+    text-align: left;
+    list-style-type: circle;
+    margin-left: 8vw;
+}
+#mself a{
+    text-decoration: underline;
+}
+#experience table{
+    width: 100%;
+}
+#experience ul{
+    list-style-type: circle;
+    margin: 1vh 0 1vh 10vw;
+}
+#experience a{
+    text-decoration: underline;
+}
+#experience h2{
+    margin: 2vh 0;
+}
+#experience table td{
+   margin-top: 5px;
+}
+#experience table .tech td:nth-child(n){
+    width:25vw;
+}
+#experience table .tech td:nth-child(2n){
+    width:75vw;
+}
+#experience table .projects{
+    text-align: left;
+}
+#experience .question-box{
+    margin: 1vh 5vw;
+}
+#experience .question-box h4{
+   text-align: left;
+}
+
+#certificate h4{
+    text-align: left;
+    padding-left: 3vw;
+    margin-top: 2vh;
+}
+#certificate h5{
+    text-align: left;
+    padding-left: 6vw;
+}

@@ -1,0 +1,33 @@
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar .options{
+    margin: 0 auto;
+}
+
+#navbar .options ul{
+    list-style-type: none;
+    margin: auto;
+}
+
+#navbar .options li{
+    float: left;
+    padding: 7px;
+    background-color: beige;
+    margin: 1vh 1px 0 1px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#navbar .options li:hover{
+    background-color: #333;
+    color:white;
+    text-decoration: none;
+}
